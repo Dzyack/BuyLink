@@ -1,0 +1,41 @@
+.container input {
+	background: lightblue;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	margin top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+.container input:hover, .container input:focus {
+	background: #ff008b;
+	color: #fff;
+}
+
+button {
+	background: green;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+button:hover {
+	background: #ff008b;
+	color: white;
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}

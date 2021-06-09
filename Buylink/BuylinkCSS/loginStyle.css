@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-family: sans-serif;
+	justify-content: center;
+	background: linear-gradient(120deg,#e74c3c,#8e44ad);
+}
+
+.container {
+	position: relative;
+	width: 350px;
+	background: white;
+	padding: 30px 20px;
+}
+
+header {
+	font-size: 40px;
+	margin-bottom: 60px;
+	font-family: 'montserrat', sans-serif;
+}
+
+.input-field, form .button {
+	margin: 25px 0;
+	position: relative;
+	height: 50px;
+	width: 100%;
+}
+
+.input-field input {
+	height: 100%;
+	width: 100%;
+	border: 1px solid silver;
+	padding-left: 15px;
+	font-size: 19px;
+	outline: none;
+	transition: .4s;
+}
+
+input:focus {
+	border: 1px solid #1da1f2;
+}
+
+.input-field label, span.show {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.input-field label {
+	left: 15px;
+	pointer-events: none;
+	color: grey;
+	font-size: 18px;
+	transition: .4s;
+}
+
+span.show {
+	right: 20px;
+	color: #111;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
+	visibility: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+input:valid~span.show {
+	visibility: visible;
+}
+
+input:focus~label,
+input:valid~label {
+	transform: translateY(-33px);
+	background: white;
+	font-size: 16px;
+	color: salmon;
+}
+
+form .button {
+	margin-top: 30px;
+	width: 105px;
+	z-index: 111;
+}
+
+.button .inner {
+	color: green;
+	position: absolute;
+	height: 100%;
+	width: 300%;
+	left: 100%;
+	z-index: 1;
+	transition: all .4s;
+	background: -webkit-linear-gradient(right,salmon,lightblue);
+	left: 0;
+}
+
+.button button {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	
+}
+
+.button button a {
+	text-decoration: none;
+	font-family: 'montserrat', sans-serif;
+	color: white;
+}
+
+.button button a:hover {
+	color: black;
+}
+
+.container .auth {
+	margin: 35px 0 20px 0;
+	color: green;
+	font-size: 19px;
+}
+
+.links {
+	display: flex;
+	cursor: pointer;
+}
+
+.facebook, .google {
+	height: 40px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.facebook:hover {
+	border: 1px solid black;
+}
+
+.google:hover {
+	border: 1px solid black;
+}
+
+.facebook i, .facebook span {
+	color: blue;
+}
+
+.google i, .google span {
+	color: black;
+}
+
+.links i {
+	font-size: 23px;
+	line-height: 40px;
+	margin-left: -90px;
+}
+
+.links span {
+	position: absolute;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 8px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.signup {
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.signup a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.signup a:hover {
+	text-decoration: underline;
+}

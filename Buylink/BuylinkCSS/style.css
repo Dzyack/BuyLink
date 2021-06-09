@@ -1,0 +1,182 @@
+
+body {
+	background-image: url(../Images/bekgron.jpeg);
+}
+.container {
+
+	width: 900px;
+	height: auto;
+	margin :auto; 
+}
+
+.judul {
+	font-family: tahoma;
+	font-weight: bold;
+	height: 50px;
+	width: 100%;
+	background: rgb(69,77,226);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 15px;
+}
+
+label {
+	font-family: comic sans ms;
+	font-size: 20pt;
+	color: white;
+	margin: 5px;
+	padding: 3px;
+	float: left;
+}
+
+.judul ul {
+	margin: 0px;
+	padding: 5px;
+	display: block;
+	background: none;
+	float: right;
+
+}
+
+.judul ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.judul ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	color: white;
+}
+
+.judul li a:hover {
+	color: rgb(248,248,1);
+	background: #222;
+	box-shadow: inset 0px 0px 5px #000;
+}
+
+.sepatu {
+
+	height: 250px;
+	background-image: url(../Images/Sepatu.jfif);
+	background-size: cover;
+	background-position:0px -180px;
+
+
+	
+}
+
+.header {
+	font-family: helvetica;
+	font-weight: bold;
+	color: rgb(255,244,52);
+	top: 20px;
+	left: 200px;
+	text-align: center;
+	padding-top: 13px;
+	font-size: 11pt;
+}
+
+.btSepatu {
+	color: rgb(251,51,71);
+	background: white;
+	border: 1px solid rgb(251,51,71);
+	left: 590px;
+	top: 250px;
+	font-size: 15px;
+	position: absolute;
+}
+
+.btSepatu a {
+	text-decoration: none;
+}
+
+.btSepatu:hover, .btMens:hover, .btWomens:hover, .btAcc:hover {
+	color: rgb(251,251,79);
+	background: rgb(251,88,90);
+	box-shadow: inset 0px 0px 50px #000;
+}
+
+.btSepatu a:hover, .btMens a:hover, .btWomens a:hover, .btAcc a:hover {
+	color: rgb(251,251,79);
+	background: rgb(251,88,90);
+	box-shadow: inset 0px 0px 50px #000;
+}
+
+.content {
+	width: 900px;
+	
+
+}
+
+.editor {
+	float: left;
+}
+
+.content .editor .text1, .text2, .text3 {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	width: 100px;
+	bottom: 250px;
+	left: 55px;
+}
+
+.text1 {
+	margin-left: 15px;
+}
+
+.text3 {
+	left :40px;
+}
+
+
+.btMens, .btWomens, .btAcc {
+	color: rgb(251,51,71);
+	background: white;
+	border: 1px solid rgb(251,51,71);
+	left: 265px;
+	top: 470px;
+	font-size: 15px;
+	position: absolute;
+}
+
+.btWomens {
+	left: 580px;
+}
+
+.btAcc {
+	left: 880px;
+}
+
+.btMens a, .btWomens a, .btAcc a  {
+	text-decoration: none;
+}
+
+.pria img {
+	width: 296.25px;
+	height: 320px;
+	margin-right: 3.25px;
+	margin-top: 5px;
+	border-radius: 5px;	
+}
+
+.wanita img {
+	width: 296.25px;
+	height: 320px;
+	margin-left: 2.5px;
+	margin-top: 5px;
+	border-radius: 5px;	
+	
+}
+
+.aksesoris img {
+	width: 296.25px;
+	height: 320px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 5px;	
+}
